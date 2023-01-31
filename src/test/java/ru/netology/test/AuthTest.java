@@ -12,6 +12,8 @@ import static ru.netology.data.DataGenerator.Registration.getUser;
 import static ru.netology.data.DataGenerator.getRandomLogin;
 import static ru.netology.data.DataGenerator.getRandomPassword;
 
+import static io.restassured.RestAssured.given;
+
 class AuthTest {
 
     @BeforeEach
